@@ -1,9 +1,9 @@
-# Algorithms and data structures
+# Algorithms, Stanford University
 
 ## Introduction
 
-This repository contains various programming exercises and solutions that are intended to demonstrate an understanding of algorithms and data structures.  
+This repository contains various programming exercises and solutions that are motivated by the contents of the Stanford Algorithms course. 
 
 ## Usage
 
-Solutions for various challenges are homed in intuitely named directories.
+Demonstrations of various paradigms in algorithm design are homed in intuitively named directories.
