@@ -1,9 +1,11 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# Simple template for Google CodeJam to enable reading
+# the input files that are provided.
 
 if __name__ == "__main__":
-    testcases = input()
+    testSetSize = int(input())
 
-    for caseNr in xrange(1, testcases+1):
-        cipher = raw_input()
-        print("Case #%i: %s" % (caseNr, solve(cipher)))
+    for caseNr in range(1, testSetSize+1):
+        test = input()
+        print("Case #{}: {}".format(caseNr, test))
