@@ -42,7 +42,7 @@ def mergeSort(unsortedList):
 	mergeSort(rHalf)
 	merge(lHalf, rHalf, unsortedList)
 
-# Takes as list of integers to sort as argv input
+# Takes a list of integers to sort as argv input (space separated)
 def main():
 	
 	try:
@@ -50,7 +50,7 @@ def main():
 		
 	except:
 		print("Unexpected value(s) in input.")
-		print("Please specify comma-separated list of integers as input")
+		print("Please specify space-separated list of integers as input")
 		sys.exit(-1)
 		
 	mergeSort(unsortedList)
