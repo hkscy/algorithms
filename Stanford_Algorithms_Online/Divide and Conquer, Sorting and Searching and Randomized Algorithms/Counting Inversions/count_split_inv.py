@@ -51,7 +51,7 @@ def sort_and_count(unsortedList):
 	z = merge_and_countSplitInv(lHalf, rHalf, unsortedList)
 	return x+y+z
 
-# Takes a list of integers to sort as argv input (space separated)
+# Reads the list of integers from input, first line specifies size.
 def main():
 	
 	try:
